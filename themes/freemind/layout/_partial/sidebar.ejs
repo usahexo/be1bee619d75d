@@ -3,5 +3,17 @@
 	<% theme.widgets.forEach(function(widget){ %>
 			<%- partial('../_widget/' + widget) %>
 		<% }); %>
+	<div class="widget">
+  <h4>Links</h4>
+  <% if (theme.jalinks && theme.jalinks.length){ %>
+            
+                <ul class="sb-submenu">
+                    <% theme.jalinks.forEach(function(item){ %>
+                    <li><a href="<%- item.link %>" class="animsition-link" rel="nofollow"><%= item.name %></a></li>
+                    <% }); %>
+                </ul>
+           
+            <% } %>
+</div>
 	</div> <!-- sidebar -->
 </div> <!-- col-md-3 -->
