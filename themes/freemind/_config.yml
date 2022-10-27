@@ -41,7 +41,10 @@ fancybox: true
 favicon: favicon.png
 duoshuo_shortname: #freemindtheme
 
-# Recommended posts
+jalinks:
+- name: 우리카지노
+  link: https://septcasino.com/
+
 # Dependency: https://github.com/huiwang/hexo-recommended-posts
 recommended_posts:
   enabled: false
